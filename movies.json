@@ -1,0 +1,211 @@
+{
+	"_id": {
+		"$oid": "617172c3011bc06e35839e48"
+	},
+	"Title": "Silence of the Lambs",
+	"Description": "UPDATE Movie Description",
+	"Genre": {
+		"Name": "Thriller",
+		"Description": "Thriller film, also know as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+	},
+	"Director": {
+		"Name": "Jonathan Demme",
+		"Bio": "Robert Jonathan Demme was an American director, producer, and screenwriter.",
+		"Birth": "1944",
+		"Death": "2017"
+	},
+	"ImagePath": "silenceofthelambs.png",
+	"Featured": true,
+	"Actors": [
+		"Kasi Lemmings"
+	]
+}
+{
+	"_id": {
+		"$oid": "61719390a46567e9f6bd02a2"
+	},
+	"Title": "Parasite",
+	"Description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+	"Genre": {
+		"Name": "Thriller",
+		"Description": "Thriller film, also known as suspense film or suspense thriller, is a broad film genre that involves excitement and suspense in the audience."
+	},
+	"Director": {
+		"Name": "Bong Joon Ho",
+		"Bio": "Bong Joon Ho is a korean writer and producer.",
+		"Birth": "1969"
+	},
+	"ImagePath": "https://www.imdb.com/title/tt6751668/mediaviewer/rm3194916865/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "617194f1be00cb4cfa331295"
+	},
+	"Title": "Klaus",
+	"Description": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions.",
+	"Genre": {
+		"Name": "Animated",
+		"Description": "Animation is a method in which pictures are manipulated to appear as moving images. In traditional animation, images are drawn or painted by hand on transparent celluloid sheets to be photographed and exhibited on film."
+	},
+	"Director": {
+		"Name": "Sergio Pablos",
+		"Bio": "Sergio Pablos' career in animation spans over three decades,he has worked as a character designer, story-board artist, and most recently as writer and Director.",
+		"Birth": "",
+		"Death": ""
+	},
+	"ImagePath": "https://www.imdb.com/title/tt4729430/mediaviewer/rm1843825409/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "61719570d75c61aba928f2d5"
+	},
+	"Title": "Spirited Away",
+	"Description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+	"Genre": {
+		"Name": "Animated",
+		"Description": "Animation is a method in which pictures are manipulated to appear as moving images. In traditional animation, images are drawn or painted by hand on transparent celluloid sheets to be photographed and exhibited on film."
+	},
+	"Director": {
+		"Name": "Hayao Miyazaki",
+		"Bio": "Hayao Miyazaki is one of Japan's greatest animation directors.",
+		"Birth": "1941",
+		"Death": ""
+	},
+	"ImagePath": "https://www.imdb.com/title/tt0245429/mediaviewer/rm4207852801/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "61719589d75c61aba928f2d6"
+	},
+	"Title": "My Neighbor Totoro",
+	"Description": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+	"Genre": {
+		"Name": "Animated",
+		"Description": "Animation is a method in which pictures are manipulated to appear as moving images. In traditional animation, images are drawn or painted by hand on transparent celluloid sheets to be photographed and exhibited on film."
+	},
+	"Director": {
+		"Name": "Hayao Miyazaki",
+		"Bio": "Hayao Miyazaki is one of Japan's greatest animation directors.",
+		"Birth": "1941",
+		"Death": ""
+	},
+	"ImagePath": "https://www.imdb.com/title/tt0096283/mediaviewer/rm4095130625/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "6171959ad75c61aba928f2d7"
+	},
+	"Title": "Wild Wild West",
+	"Description": "The two best special agents in the Wild West must save President Grant from the clutches of a diabolical, wheelchair-bound, steampunk-savvy, Confederate scientist bent on revenge for losing the Civil War.",
+	"Genre": {
+		"Name": "Comedy",
+		"Description": "Comedy is a genre of film in which the main emphasis is on humor. These films are designed to make the audience laugh through amusement and most often work by exaggerating characteristics for humorous effect."
+	},
+	"Director": {
+		"Name": "Barry Sonnenfeld",
+		"Bio": "Barry Sonnenfeld was born and raised in New York City. He graduated from New York University Film School in 1978.",
+		"Birth": "1953",
+		"Death": ""
+	},
+	"ImagePath": "https://www.imdb.com/title/tt0120891/mediaviewer/rm1573468416/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "617195a8d75c61aba928f2d8"
+	},
+	"Title": "Sleepy Hollow",
+	"Description": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people, with the culprit being the legendary apparition, The Headless Horseman.",
+	"Genre": {
+		"Name": "Horror",
+		"Description": "A horror story is told to deliberately scare or frighten the audience, through suspense, violence or shock."
+	},
+	"Director": {
+		"Name": "Tim Burton",
+		"Bio": " UPDATE - Timothy Walter Burton is an American film director, producer, writer and artist.",
+		"Birth": "1958",
+		"Death": ""
+	},
+	"ImagePath": "https://www.imdb.com/title/tt0162661/mediaviewer/rm2115639808/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "617195b7d75c61aba928f2d9"
+	},
+	"Title": "Ocean's Eight",
+	"Description": "Debbie Ocean gathers an all-female crew to attempt an impossible heist at New York City's yearly Met Gala.",
+	"Genre": {
+		"Name": "Action",
+		"Description": "Movies in the action genre are fast-paced and include a lot of action like fight scenes, chase scenes, and slow-motion shots. They can feature superheroes, martial arts, or exciting stunts."
+	},
+	"Director": {
+		"Name": "Gary Ross",
+		"Bio": "Gary Ross is an American writer, director and actor.",
+		"Birth": "1956",
+		"Death": ""
+	},
+	"ImagePath": "https://www.imdb.com/title/tt5164214/mediaviewer/rm3861728256/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "617195c3d75c61aba928f2da"
+	},
+	"Title": "No Time to Die",
+	"Description": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
+	"Genre": {
+		"Name": "Action",
+		"Description": "Movies in the action genre are fast-paced and include a lot of action like fight scenes, chase scenes, and slow-motion shots. They can feature superheroes, martial arts, or exciting stunts."
+	},
+	"Director": {
+		"Name": "Cary Joji Fukunago",
+		"Bio": "Cary Joji Fukunaga is a producer and director.",
+		"Birth": "1977",
+		"Death": ""
+	},
+	"ImagePath": "https://www.imdb.com/title/tt2382320/mediaviewer/rm1714747649/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "617195d0d75c61aba928f2db"
+	},
+	"Title": "Alice in Wonderland",
+	"Description": "Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen's reign of terror.",
+	"Genre": {
+		"Name": "Fantasy",
+		"Description": "Fantasy is a genre of speculative fiction set in a fictional universe, often inspired by real world myth and folklore."
+	},
+	"Director": {
+		"Name": "Tim Burton",
+		"Bio": " UPDATE - Timothy Walter Burton is an American film director, producer, writer and artist.",
+		"Birth": "1958",
+		"Death": ""
+	},
+	"ImagePath": "https://www.imdb.com/title/tt1014759/mediaviewer/rm1086033408/",
+	"Featured": true
+}
+{
+	"_id": {
+		"$oid": "617195dcd75c61aba928f2dc"
+	},
+	"Title": "The Witches",
+	"Description": "A young boy stumbles onto a witch convention and must stop them, even after he has been turned into a mouse.",
+	"Genre": {
+		"Name": "Family",
+		"Description": "Family film is a genre that is contains appropriate content for younger viewers. Family film aims to appeal not only to children, but to a wide range of ages. This genre may fall into many other genres, including comedy, adventure, fantasy, and animated film."
+	},
+	"Director": {
+		"Name": "Nicolas Roeg",
+		"Bio": "Nicolas Jack Roeg CBE BSC was an English film director and cinematographer.",
+		"Birth": "1928",
+		"Death": "2018"
+	},
+	"ImagePath": "https://www.imdb.com/title/tt0100944/mediaviewer/rm4120243200/",
+	"Featured": true
+}
