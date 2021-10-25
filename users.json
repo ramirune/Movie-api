@@ -1,0 +1,81 @@
+{
+	"_id": {
+		"$oid": "617424e783b8e912c1b000b2"
+	},
+	"Username": "Mandy1234",
+	"Password": "mandy1234",
+	"Email": "mandy445@gmail.com",
+	"Birthday": {
+		"$date": "1988-09-14T00:00:00Z"
+	},
+	"FavouriteMovies": [
+		{
+			"$oid": "61719390a46567e9f6bd02a2"
+		},
+		{
+			"$oid": "617194f1be00cb4cfa331295"
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "6174250683b8e912c1b000b3"
+	},
+	"Username": "parita",
+	"Password": "parita1234",
+	"Email": "parita123@gmail.com",
+	"Birthday": {
+		"$date": "1984-07-07T00:00:00Z"
+	},
+	"FavouriteMovies": [
+		{
+			"$oid": "617194f1be00cb4cfa331295"
+		},
+		{
+			"$oid": "61719570d75c61aba928f2d5"
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "6174251183b8e912c1b000b4"
+	},
+	"Username": "ramirune",
+	"Password": "ramirune15",
+	"Email": "ramirune@gmail.com",
+	"Birthday": {
+		"$date": "1982-11-15T00:00:00Z"
+	},
+	"FavouriteMovies": [
+		{
+			"$oid": "61719570d75c61aba928f2d5"
+		},
+		{
+			"$oid": "61719589d75c61aba928f2d6"
+		}
+	],
+	"FavoriteMovies": [
+		{
+			"$oid": "617195dcd75c61aba928f2dc"
+		}
+	]
+}
+{
+	"_id": {
+		"$oid": "6174251b83b8e912c1b000b5"
+	},
+	"Username": "marcel",
+	"Password": "marcel02",
+	"Email": "marcel02@gmail.com",
+	"Birthday": {
+		"$date": "1981-10-02T00:00:00Z"
+	},
+	"FavouriteMovies": [
+		{
+			"$oid": "6171959ad75c61aba928f2d7"
+		},
+		{
+			"$oid": "617195c3d75c61aba928f2da"
+		}
+	]
+}
