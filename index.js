@@ -22,8 +22,6 @@ let auth = require('./auth')(app);
 const passport = require('passport');
 require('./passport');
 
-app.use(auth.router());
-
 app.get('/', (req, res) => {
     res.send('Welcome to myFlix App!');
 });
