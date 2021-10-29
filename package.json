@@ -36,5 +36,5 @@
   "devDependencies": {
     "eslint": "^8.0.1"
   },
-  "description": ""
+  "description": "URL:  https://github.com/ramirune/Movie-api\r ## Objective\r To build the server-side component of a “movies” web application. The web\r application will provide users with access to information about different\r movies, directors, and genres. Users will be able to sign up, update their\r personal information, and create a list of their favorite movies."
 }
