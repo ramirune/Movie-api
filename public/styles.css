@@ -1,0 +1,21 @@
+table {
+    width: 90%;
+    border-style: solid;
+    border-collapse: collapse;
+}
+thead {
+    background-color: #c6d8cc;
+}
+
+th, td {
+    border-style: solid;
+    border-color: #c0d1c6;
+}
+
+.highlight {
+    background-color: #fcf1ef;
+}
+
+tr {
+    vertical-align: top;
+}
