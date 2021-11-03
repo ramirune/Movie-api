@@ -12,8 +12,8 @@ const Movies = Models.Movie,
       Directors = Models.Director,
       Genres = Models.Genre;
 
-//  mongoose.connect('mongodb://localhost:27017/myFlixDB', { useNewUrlParser: true, useUnifiedTopology: true });
-mongoose.connect(process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+ mongoose.connect('mongodb://localhost:27017/myFlixDB', { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect(process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use(morgan('common'));
 app.use(express.static('public'));
@@ -40,6 +40,8 @@ let auth = require('./auth')(app);
 
 const passport = require('passport');
 require('./passport');
+
+app.use(passport.initialize());
 
 app.get('/', (req, res) => {
     res.send('Welcome to myFlix App!');
