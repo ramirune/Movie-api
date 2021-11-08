@@ -2,8 +2,6 @@ const express = require('express'),
       morgan = require('morgan'),
       mongoose = require('mongoose'),
       Models = require('./models.js');
-// const dotenv = require('dotenv');
-// require('dotenv').config();
 
 const { check, validationResult } = require('express-validator');
 
@@ -15,8 +13,8 @@ const Movies = Models.Movie,
       Genres = Models.Genre;
 
 //mongoose.connect('mongodb://localhost:27017/myFlixDB', { useNewUrlParser: true, useUnifiedTopology: true });
-mongoose.connect('mongodb+srv://myFlixDBadmin:admin123456@cluster0.rhd9f.mongodb.net/Cluster0?w=majority&retryWrites=true', { useNewUrlParser: true, useUnifiedTopology: true });
-//mongoose.connect(process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+//mongoose.connect('mongodb+srv://myFlixDBadmin:admin123456@cluster0.rhd9f.mongodb.net/Cluster0?w=majority&retryWrites=true', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use(morgan('common'));
 app.use(express.static('public'));
