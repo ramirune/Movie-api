@@ -55,7 +55,7 @@ app.get('/documentation', (req, res) => {
 });
 
 // Get the list of ALL movies
-app.get('/movies', (req, res) => {
+app.get('/movies', passport.authenticate('jwt', { session: false }), (req, res) => {
     Movies.find()
       .then((movies) => {
         res.status(201).json(movies);
@@ -229,7 +229,7 @@ app.get('/users/:Username', passport.authenticate('jwt', { session: false }), (r
   (required)
   Birthday: Date
 }*/
-app.put('/users/:Username', 
+app.put('/users/:Username',
 [
   check('Username', 'Username is required').isLength({min: 5}),
   check('Username', 'Username contains non alphanumeric characters - not allowed.').isAlphanumeric(),
