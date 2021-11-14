@@ -55,7 +55,7 @@ app.get('/documentation', (req, res) => {
 });
 
 // Get the list of ALL movies
-app.get('/movies', passport.authenticate('jwt', { session: false }), (req, res) => {
+app.get('/movies', (req, res) => {
     Movies.find()
       .then((movies) => {
         res.status(201).json(movies);
@@ -205,7 +205,7 @@ app.get('/users', (req, res) => {
 });
 
 // Get a user by username
-app.get('/users/:Username', passport.authenticate('jwt', { session: false }), (req, res) => {
+app.get('/users/:Username', (req, res) => {
     Users.findOne({ Username: req.params.Username })
       .then((user) => {
         res.status(201).json(user);
