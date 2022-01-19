@@ -35,6 +35,10 @@ let allowedOrigins = [
 	'http://localhost:1234',
 	'https://myflix-client-app.netlify.app',
 	'http://localhost:4200',
+	'https://ramirune.github.io/myFlix-Angular-app',
+	'https://ramirune.github.io/myFlix-Angular-app/',
+	'https://ramirune.github.io/',
+	'https://ramirune.github.io',
 ];
 app.use(
 	cors({
