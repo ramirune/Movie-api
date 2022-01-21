@@ -21,13 +21,28 @@ mongoose.connect(process.env.CONNECTION_URI, {
 	useUnifiedTopology: true,
 });
 
-app.use(morgan('common'));
+/* app.use(morgan('common'));
 app.use(express.static('public'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true })); */
 
 const cors = require('cors');
 
+app.use(cors());
+app.options('*', cors());
+let allowedOrigins = function (req, res, next) {
+	res.header('Access-Control-Allow-Origin', '*');
+	res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
+	res.header('Access-Control-Allow-Headers', 'Content-Type');
+	next();
+};
+
+app.use(allowedOrigins);
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static('public'));
+app.use(morgan('common'));
+/* 
 //app.use(cors());
 let allowedOrigins = [
 	'http://localhost:8080',
@@ -54,6 +69,7 @@ app.use(
 		},
 	})
 );
+ */
 
 //allow certain domain only
 /* let allowedOrigins = ['http://localhost:8080', 'http://testsite.com'];
