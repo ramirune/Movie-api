@@ -361,12 +361,13 @@ app.put(
 
 // Get user Favorites
 app.get(
-	'users/favorites/:Username',
+	'users/:Username/movies',
 	passport.authenticate('jwt', { session: false }),
 	(req, res) => {
 		Users.findOne({ Username: req.params.Username })
+			.populate('FavoriteMovies')
 			.then(user => {
-				res.status(201).json(user.FavoriteMovies);
+				res.status(200).json(user.FavoriteMovies);
 			})
 			.catch(error => {
 				console.error(error);
