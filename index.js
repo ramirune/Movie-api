@@ -166,22 +166,6 @@ app.get(
 	}
 );
 
-// Get movie data by ID
-app.get(
-	'movies/:MovieID',
-	passport.authenticate('jwt', { session: false }),
-	(req, res) => {
-		Movies.findOneById({ _id: req.params._id })
-			.then(movie => {
-				res.status(201).json(movie);
-			})
-			.catch(err => {
-				console.error(err);
-				res.status(500).send('Error: ' + err);
-			});
-	}
-);
-
 // Get data about movies by genre
 app.get(
 	'/movies/Genre/:Name',
@@ -386,16 +370,16 @@ app.put(
 			{
 				$push: { FavoriteMovies: req.params.MovieID },
 			},
-			{ new: true }, // This line makes sure that the updated document is returned
-			(err, updatedUser) => {
-				if (err) {
-					console.error(err);
-					res.status(500).send('Error: ' + err);
-				} else {
-					res.json(updatedUser);
-				}
-			}
-		);
+			{ new: true }
+		)
+			.populate('FavoriteMovies')
+			.then(user => {
+				res.status(201).json(user.FavoriteMovies);
+			})
+			.catch(err => {
+				console.error(err);
+				res.status(500).send('Error: ' + err);
+			});
 	}
 );
 
